@@ -1,0 +1,101 @@
+<html>
+<br>
+<h2> Tell me about you! </h2>
+<!--Form section-->
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br> 
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="reset" value="Made an oopsy">
+        <button type="button" onclick="alert('Nice name &#128077')">Submit</button>
+    </form>
+<br>
+
+<!--Birthday section-->
+    <h2>Share Your Birthday!</h2>
+    <form action="/action_page.php">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <button><a href="week2birthdaybutton.html" target="_blank">Submit</a></button>
+    </form>
+<br>
+
+<!--Misc section-->
+<h2>Are you enjoying my website?</h2>
+<form action="/action_page.php">
+    <input type="radio" id="yes" 
+name="fav_language" value="HTML">
+    <label for="html">yes</label><br>
+    <input type="radio" id="css"
+name="fav_language" value="CSS">
+    <label for="css">yes</label><br>
+    <input type="radio" id="javascript"
+name="fav_lanague" value="Javascript">
+    <label for="javascript">yes</label>
+<br><br>
+   <button type="button" onclick="alert('Good, I expected nothing less')">Submit</button>
+</form>
+<br>
+
+<!--Colour selector-->
+<h2>I want to know your favourite colour</h2>
+<form action="/action_page.php">
+    <label for="favcolor">Select your favourite colour:</label>
+    <input type="color" id="favcolor"
+name="favcolor" value="#ff0000">
+<br><br>
+   <button type="button" onclick="alert('Its ok I guess &#129335')">Yup, that's my favourite colour!</button>
+</form>
+<br>
+
+<!--Drop down menu-->
+<h2>We are going to play Mario Kart, who are you choosing?</h2>
+<form action="/action_page.php">
+    <label for="characters">Choose your character:</label>
+    <select name="cars" id="cars">
+        <option value="Yoshi">Yoshi</option>
+        <option value="Toadette">Toadette</option>
+        <option value="Daisy">Daisy</option>
+        <option value="Shy Guy">Shy Guy</option>
+        <option value="Rosalina">Rosalina</option>
+        <option value="Monty Mole">Monty Mole</option>
+    </select>
+    <br><br>
+    <button type="button" onclick="alert('Good choice, I only included good characters - if you were hoping for Mario...why are you like this')">Yup, that's my character!</button>
+<br><br>
+
+    <!--Last one-->
+<h2>Select all that apply to you</h2>
+<form action="/action_page.php">
+    <input type="checkbox" id="vehicle1"
+name="vehicle1" value="Bike">
+    <label for="vehicle1"> I like bubble tea </label>
+
+    <input type="checkbox" id="vehicle1"
+name="vehicle1" value="Bike">
+    <label for="vehicle1"> Warm lighting > Cool lighting </label>
+
+    <input type="checkbox" id="vehicle1"
+name="vehicle1" value="Bike">
+    <label for="vehicle1"> Summer = sweaty weather </label>
+
+<br><br>
+
+    <input type="checkbox" id="vehicle1"
+name="vehicle1" value="Bike">
+    <label for="vehicle1"> Biking over rocks and hills is fun </label>
+
+    <input type="checkbox" id="vehicle1"
+name="vehicle1" value="Bike">
+    <label for="vehicle1"> Having pets makes your life better </label>
+
+    <input type="checkbox" id="vehicle1"
+name="vehicle1" value="Bike">
+    <label for="vehicle1"> Cakes and desserts go in a different stomach </label>
+<br><br>
+    <button type="button" onclick="alert('You have passed the test...lets be friends &#128522 ')">Reveal my results</button>
+<br>
+</form>
+</form>
+</html>
